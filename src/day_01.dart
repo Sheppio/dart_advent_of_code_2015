@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'lib/data.dart';
 
 class day01 {

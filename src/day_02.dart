@@ -27,7 +27,7 @@ class day02 {
   }
 
   static List<int> SamllestTwoSides(List<int> list) {
-    list..sort();
+    list.sort();
     return list.take(2).toList();
   }
 

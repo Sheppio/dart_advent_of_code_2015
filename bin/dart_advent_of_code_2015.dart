@@ -2,6 +2,7 @@ import 'package:args/args.dart';
 
 import '../src/day_01.dart';
 import '../src/day_02.dart';
+import '../src/day_03.dart';
 
 const String version = '0.0.1';
 
@@ -65,4 +66,6 @@ void main(List<String> arguments) {
   day01.runB();
   day02.runA();
   day02.runB();
+  day03.runA();
+  day03.runB();
 }
