@@ -1,5 +1,7 @@
 import 'package:args/args.dart';
 
+import '../src/day_01.dart';
+
 const String version = '0.0.1';
 
 ArgParser buildParser() {
@@ -58,4 +60,6 @@ void main(List<String> arguments) {
     print('');
     printUsage(argParser);
   }
+  day01.runA();
+  day01.runB();
 }
