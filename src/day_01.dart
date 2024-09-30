@@ -9,7 +9,7 @@ class day01 {
     final upCount = dataList.where((e) => e == '(').length;
     final downCount = dataList.where((e) => e == ')').length;
     var finalFloor = upCount - downCount;
-    print('Final floor: $finalFloor');
+    print('Day01a# Final floor: $finalFloor');
     return finalFloor;
   }
 
@@ -28,10 +28,10 @@ class day01 {
           break;
       }
       final instrucitonPos = i + 1;
-      print('Instruction: $instrucitonPos, Floor: $currentFloor');
+      //print('Instruction: $instrucitonPos, Floor: $currentFloor');
       if (currentFloor < 0) {
-        print('First basement reached at character $instrucitonPos');
-        return i;
+        print('Day01b# First basement reached at character: $instrucitonPos');
+        return instrucitonPos;
       }
     }
     throw Exception('Basement never reached.');
