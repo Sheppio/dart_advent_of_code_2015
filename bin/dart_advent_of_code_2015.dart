@@ -1,11 +1,6 @@
 import 'package:args/args.dart';
 
-import '../src/day_01.dart';
-import '../src/day_02.dart';
-import '../src/day_03.dart';
-import '../src/day_04.dart';
-import '../src/day_05.dart';
-import '../src/day_06.dart';
+import '../src/day_07.dart';
 
 const String version = '0.0.1';
 
@@ -74,6 +69,7 @@ void main(List<String> arguments) {
   //day04.runA();
   //day05.runA();
   //day05.runB();
-  day06.runA();
-  day06.runB();
+  //day06.runA();
+  //day06.runB();
+  day07.runA();
 }
