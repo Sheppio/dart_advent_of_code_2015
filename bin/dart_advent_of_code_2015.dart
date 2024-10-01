@@ -4,6 +4,7 @@ import '../src/day_01.dart';
 import '../src/day_02.dart';
 import '../src/day_03.dart';
 import '../src/day_04.dart';
+import '../src/day_05.dart';
 
 const String version = '0.0.1';
 
@@ -69,5 +70,7 @@ void main(List<String> arguments) {
   // day02.runB();
   // day03.runA();
   // day03.runB();
-  day04.runA();
+  //day04.runA();
+  //day05.runA();
+  day05.runB();
 }
