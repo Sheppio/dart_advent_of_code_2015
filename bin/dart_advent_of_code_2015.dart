@@ -8,6 +8,7 @@ import '../src/day_05.dart';
 import '../src/day_06.dart';
 import '../src/day_07.dart';
 import '../src/day_08.dart';
+import '../src/day_10.dart';
 
 const String version = '0.0.1';
 
@@ -79,6 +80,7 @@ void main(List<String> arguments) {
   //day06.runA();
   //day06.runB();
   //day07.runA();
-  day08.runA();
-  day08.runB();
+  //day08.runA();
+  //day08.runB();
+  day10.runAB();
 }
